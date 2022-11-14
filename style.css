@@ -29,17 +29,19 @@ img{
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
     width: 100;
-    color: #112b4a;
+    color: #c2ddff;
+    text-shadow: 7px 3px #101738;
 }
 
 
 /* NAVIGATION BAR */
 #nav-bar{
     display: flex;
-    color: white;
-    background-color: #3167a8;
+    color: #c2ddff;
+    background-color: #0e3557;
     font-size: 40px;
     justify-content: space-between;
+    text-shadow: 7px 3px #101738;
 }
 
 #nav-bar h2{
@@ -49,7 +51,7 @@ img{
 
 a{
     margin: 25px;
-    color: white;
+    color: #c2ddff;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -58,34 +60,39 @@ a{
 #about{
     width: 100%;
     margin: 0px;
-    background-color: #d0e1f5;
+    background-color: #0e3557;
 
 }
 
 #about-content{
-    height: 350px;
+    height: 375px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
 
 #about-heading{
-    color: #112b4a;
+    color: #c2ddff;
     font-size: 40px;
+    text-shadow: 7px 3px #101738;
 }
 
 #about-content p{
-    color: #112b4a;
+    color: #c2ddff;
     font-size: 20px;
     margin: 30px 50px;
 }
 
-#about-content img{
+/* PROFILE IMAGE */
+#image-div{
     display: flex;
+    justify-content: center;
+}
+
+#image-div img{
     width: 150px;
     height: 150px;
-    justify-content: center;
-    right: 50%;
     border-radius: 90px;
+    border: 7px solid #101738;
 }
 
 /* SOCIAL MEDIA */
@@ -95,14 +102,15 @@ a{
     height: 150px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    color: #112b4a;
+    color: #c2ddff;
 }
 
 #socials h2{
     font-size: 40px;
+    text-shadow: 7px 3px #101738;
 }
 
 #socials a{
     font-size: 50px;
-    color: #112b4a;
+    color: #c2ddff;
 }
